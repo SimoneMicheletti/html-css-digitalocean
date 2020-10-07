@@ -273,8 +273,38 @@ h2 {
   min-height: 400px;
 }
 
+.carousel-centrale {
+  min-height: 300px;
+  width: 80%;
+  margin: auto;
+}
 
+.freccia-slide {
+  min-height: 300px;
+  line-height: 300px;
+  float: left;
+  height: 100%;
+  width: 10%;
+  font-size: 3em;
+}
 
+.carousel-immagine {
+  min-height: 300px;
+  float: left;
+  background-color: white;
+  width: 80%;
+}
+
+.carousel-immagine img {
+  width: 50%;
+  margin-bottom: 15px;
+  margin-top: 10%;
+}
+
+.pallini {
+  margin-top: 15px;
+  color: #006aff;
+}
 
 /* SECTION 7 - Service around the world */
 
