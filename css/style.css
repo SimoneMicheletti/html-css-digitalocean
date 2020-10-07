@@ -1,0 +1,141 @@
+/* REGOLE GENERALI */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+[class*="col-"] {
+  border: 2px solid black
+}
+
+header , [id*="section"] , footer {
+  padding: 70px 0;
+}
+
+
+
+
+/* HEADER */
+
+header {
+  background-color: #005fff;
+  min-height: 500px;
+}
+
+header [class*="col-"] {
+  min-height: 400px;
+}
+
+
+
+
+/* SECTION 1 - Innovative businesses trust DigitalOcean */
+
+#section1 {
+  background-color: #f3f5f9;
+}
+
+#section1 [class*="col-"] {
+  min-height: 100px;
+}
+
+
+
+
+/* SECTION 2 - Deploy and scale seamlessly */
+
+#section2 [class*="col-"] {
+  min-height: 100px;
+}
+
+
+
+
+/* SECTION 3 - Designed for developers */
+
+#section3 {
+  background-color: #f3f5f9;
+}
+
+#section3 [class*="col-"] {
+  min-height: 100px;
+}
+
+#section3 .row:last-child>[class*="col-"] {
+  min-height: 400px;
+}
+
+
+
+
+/* SECTION 4 - Built for business */
+
+#section4 [class*="col-"] {
+  min-height: 100px;
+}
+
+
+
+
+/* SECTION 5 - Service around the world */
+
+#section5 {
+  background-image: linear-gradient(#0040ba, #00219c);
+}
+
+#section5 [class*="col-"] {
+  min-height: 100px;
+}
+
+#section5 .row:last-child>[class*="col-"] {
+  min-height: 300px;
+}
+
+
+
+
+/* SECTION 6 - Development teams love DigitalOcean */
+
+#section6 {
+  background-color: #f3f5f9;
+}
+
+#section6 [class*="col-"] {
+  min-height: 100px;
+}
+
+#section6 .row:last-child>[class*="col-"] {
+  min-height: 400px;
+}
+
+
+
+
+/* SECTION 7 - Service around the world */
+
+#section7 {
+  background-image: linear-gradient(#0040ba, #00219c);
+  min-height: 200px;
+}
+
+#section7 div {
+  border: 2px solid black;
+  width: 300px;
+  height:100px;
+  margin: auto;
+}
+
+
+
+
+/* FOOTER */
+
+footer {
+  background-color: #031c4e;
+}
+
+footer [class*="col-"] {
+  min-height: 250px;
+}
