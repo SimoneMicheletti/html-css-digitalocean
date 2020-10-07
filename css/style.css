@@ -177,7 +177,6 @@ h2 {
 /* SECTION 2 - Deploy and scale seamlessly */
 
 #section2 [class*="col-"] {
-  min-height: 100px;
   margin-bottom: 20px;
 }
 
@@ -214,14 +213,24 @@ h2 {
   min-height: 400px;
 }
 
+#carouselExampleIndicators img{
+  width: 50%;
+}
+
 
 
 
 /* SECTION 4 - Built for business */
 
-#section4 [class*="col-"] {
-  min-height: 100px;
+#section4 .row:first-child{
+  margin-bottom: 20px;
 }
+
+#section4 img {
+  height: 38px;
+}
+
+
 
 
 
