@@ -19,7 +19,19 @@ header , [id*="section"] , footer {
   padding: 70px 0;
 }
 
+a {
+  color: #006aff;
+}
 
+a:hover {
+  color: #1633ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h2 , h1 {
+  margin: 0;
+}
 
 
 /* NAVBAR */
@@ -53,22 +65,68 @@ nav img {
   color: white;
 }
 
-@grid-float-breakpoint {
 
-}
-
-
-/* HEADER */
+/* HEADER - JUMBOTRON */
 
 header {
-  background-color: #005fff;
+  background-image: url(../img/jumbo.jpg);
   min-height: 500px;
   margin-top: 52px;
 }
 
-header [class*="col-"] {
-  min-height: 400px;
+/* header right */
+
+header h1 {
+  color: white;
+  font-size: 3.5em;
+  font-weight: bold;
+  margin: 20px 0;
 }
+
+header p {
+  color: lightgrey;
+  font-size: 1.5em;
+}
+
+/* Header left */
+
+#get-started-now {
+  background-color: #f8f8f8;
+  border-radius: 7px;
+  padding: 40px 20px;
+}
+
+#get-started-now button {
+  display: block;
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+#create-account {
+  background-color: #006aff;
+  color: white;
+}
+
+#create-account:hover {
+  background-color: #1633ff;
+}
+
+#get-started-now button:last-child {
+  position: relative;
+  margin-top: 15px;
+}
+
+#get-started-now img {
+  position: absolute;
+  left: 3px;
+  top: 5px;
+  height: 24px;
+}
+
+
 
 
 
