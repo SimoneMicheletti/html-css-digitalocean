@@ -74,7 +74,7 @@ header {
   margin-top: 52px;
 }
 
-/* header right */
+/* header left */
 
 header h1 {
   color: white;
@@ -88,15 +88,15 @@ header p {
   font-size: 1.5em;
 }
 
-/* Header left */
+/* Header right */
 
-#get-started-now {
+#header-right {
   background-color: #f8f8f8;
   border-radius: 7px;
   padding: 40px 20px;
 }
 
-#get-started-now button {
+#header-right button {
   display: block;
   width: 100%;
 }
@@ -114,21 +114,25 @@ h2 {
   background-color: #1633ff;
 }
 
-#get-started-now button:last-child {
+#header-right button:last-child {
   position: relative;
   margin-top: 15px;
 }
 
-#get-started-now img {
+#header-right img {
   position: absolute;
   left: 3px;
   top: 5px;
   height: 24px;
 }
 
+#header-right>div:last-child {
+  font-size: 12px;
+}
 
-
-
+#header-right>div:last-child>a {
+  text-decoration: underline;
+}
 
 
 /* SECTION 1 - Innovative businesses trust DigitalOcean */
@@ -137,10 +141,25 @@ h2 {
   background-color: #f3f5f9;
 }
 
-#section1 [class*="col-"] {
-  min-height: 100px;
+#section1 .row:nth-child(1) {
+  margin-bottom: 30px;
 }
 
+#section1 .row:nth-child(3) {
+  margin-top: 30px;
+}
+
+#section1 .row:nth-child(2)>[class*="col-"] {
+  line-height: 70px;
+}
+
+#section1 .row:first-child {
+  color: grey;
+}
+
+#section1 img {
+  max-width: 100%;
+}
 
 
 
