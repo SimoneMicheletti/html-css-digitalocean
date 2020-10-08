@@ -38,6 +38,80 @@ p {
 
 
 
+
+/* REGOLE CAROUSEL */
+
+#carousel-example-generic,
+#carousel-example-generic2 {
+  width: 70%;
+  position: relative;
+  margin: 15px auto;
+}
+
+.carousel-caption {
+  text-shadow: none;
+}
+
+.carousel-indicators li {
+  border: 1px solid #006aff;
+}
+
+.carousel-indicators .active {
+  background-color: #006aff;
+}
+
+.left.carousel-control,
+.right.carousel-control {
+  background-image: none;
+  color: inherit;
+}
+
+.left.carousel-control:hover,
+.right.carousel-control:hover {
+  color: #006aff;
+}
+
+#carousel-example-generic .left.carousel-control>span:first-child {
+  position: absolute;
+  top: calc((100% - 100px) / 2);
+  left: -50%;
+  transform: translateY(-50%);
+  font-size: 3em;
+}
+
+#carousel-example-generic2 .left.carousel-control>span:first-child {
+  position: absolute;
+  top: 50%;
+  left: -50%;
+  transform: translateY(-50%);
+  font-size: 3em;
+}
+
+#carousel-example-generic .right.carousel-control>span:first-child {
+  position: absolute;
+  top: calc((100% - 100px) / 2);
+  right: -50%;
+  transform: translateY(-50%);
+  font-size: 3em;
+}
+
+#carousel-example-generic2 .right.carousel-control>span:first-child {
+  position: absolute;
+  top: 50%;
+  right: -50%;
+  transform: translateY(-50%);
+  font-size: 3em;
+}
+
+#carousel-example-generic img ,
+#carousel-example-generic2 .carousel-immagine {
+  padding-bottom: 100px;
+}
+
+
+
+
+
 /* NAVBAR */
 
 nav.navbar {
@@ -68,6 +142,8 @@ nav img {
   background-color: #006aff;
   color: white;
 }
+
+
 
 
 /* HEADER - JUMBOTRON */
@@ -198,16 +274,8 @@ h2 {
 
 #section3 {
   background-color: #f3f5f9;
+  padding-bottom: 0;
 }
-
-#section3 .row:last-child>[class*="col-"] {
-  min-height: 400px;
-}
-
-#carouselExampleIndicators img{
-  width: 50%;
-}
-
 
 
 
@@ -265,34 +333,12 @@ h2 {
   background-color: #f3f5f9;
 }
 
-#section6 [class*="col-"] {
-  min-height: 100px;
-}
-
-#section6 .row:last-child>[class*="col-"] {
-  min-height: 400px;
-}
-
-.carousel-centrale {
-  min-height: 300px;
-  width: 80%;
-  margin: auto;
-}
-
-.freccia-slide {
-  min-height: 300px;
-  line-height: 300px;
-  float: left;
-  height: 100%;
-  width: 10%;
-  font-size: 3em;
-}
-
 .carousel-immagine {
   min-height: 300px;
   float: left;
   background-color: white;
-  width: 80%;
+  width: 100%;
+  padding: 30px;
 }
 
 .carousel-immagine img {
@@ -301,10 +347,6 @@ h2 {
   margin-top: 10%;
 }
 
-.pallini {
-  margin-top: 15px;
-  color: #006aff;
-}
 
 
 
