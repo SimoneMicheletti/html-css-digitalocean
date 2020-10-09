@@ -81,7 +81,7 @@ p {
 
 #carousel-example-generic2 .left.carousel-control>span:first-child {
   position: absolute;
-  top: 50%;
+  top: calc((100% - 70px) / 2);
   left: -50%;
   transform: translateY(-50%);
   font-size: 3em;
@@ -97,15 +97,18 @@ p {
 
 #carousel-example-generic2 .right.carousel-control>span:first-child {
   position: absolute;
-  top: 50%;
+  top: calc((100% - 70px) / 2);
   right: -50%;
   transform: translateY(-50%);
   font-size: 3em;
 }
 
-#carousel-example-generic img ,
-#carousel-example-generic2 .carousel-immagine {
+#carousel-example-generic img {
   padding-bottom: 100px;
+}
+
+#carousel-example-generic2 .carousel-immagine {
+  margin-bottom: 70px;
 }
 
 
